@@ -1,0 +1,5 @@
+figma : https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5
+
+Traversy Media [3.0.23]  [1.5hr+] : https://youtu.be/dFgzHOX84xQ
+
+Live Demo : https://demo-traversy-tailwind-landing-page.netlify.app/

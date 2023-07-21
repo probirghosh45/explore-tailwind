@@ -1,0 +1,24 @@
+cmd -
+    * npm init
+    * npm install -D tailwindcss
+    * npx tailwindcss init
+
+  package.json :  scripts updated  -
+    *   "scripts": {
+        "build" : "npx tailwind -i ./input.css -o ./css/main.css",
+        "watch" : "npx tailwind -i ./input.css -o ./css/main.css --watch"
+      }, 
+
+  cmd : npm run build
+        npm run watch   
+       
+  index.html > link css [build,main.css] > apply tailwind css into html > done !
+  
+
+  default breakpoint cutomize : https://tailwindcss.com/docs/screens#configuring-custom-screens
+  Overriding the defaults  :  theme > screens > 
+
+  customize color palette : https://tailwindcss.com/docs/text-color
+      add new color       :  theme > extend > colors >
+
+  flex & grid : https://tailwindcss.com/docs/flex-basis
