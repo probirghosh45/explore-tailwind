@@ -1,0 +1,13 @@
+cmd -
+    * npm init
+    * npm install -D tailwindcss
+    * npx tailwindcss init
+
+  package.json :  scripts updated  -
+    *   "scripts": {
+        "build" : "npx tailwind -i ./input.css -o ./css/main.css",
+        "watch" : "npx tailwind -i ./input.css -o ./css/main.css --watch"
+      }, 
+
+  cmd : npm run build
+        npm run watch    
